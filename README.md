@@ -20,14 +20,32 @@ FarmDog-App is an open-source Flask-based RTK GNSS surveying application designe
 
 ## Installation
 
+##### 1. Install the FarmDog-App
+```
 git clone https://github.com/Farm-Dog-ICT302/FarmDog-App.git
+```
 
+##### 2. Navigate into the application directory
+```
 cd FarmDog-App
+```
 
+##### 3. Run the installation script (installs Flask and other dependencies)
+```
 chmod +x install.sh
 ./install.sh
+```
 
+##### 4. Start the Flask Web GUI and Python backend
+```
 ./startserver.sh
+```
+
+##### 5. Navigate to Web Browser on any device on the same network
+```
+http://[IP ADDRESS]:5000
+```
+
 
 ## Accessing the Interface
 
