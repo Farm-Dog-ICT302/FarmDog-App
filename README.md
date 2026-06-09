@@ -48,10 +48,9 @@ http://[IP ADDRESS]:5000
 
 
 ## Accessing the Interface
-
-Open:
-
+```
 http://[IP ADDRESS]:5000
+```
 
 ## Related Project
 
