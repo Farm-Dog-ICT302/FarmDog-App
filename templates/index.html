@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> FarmDog RTK GNSS </title>
+        <!-- Style Sheets -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/mainMenu.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/mapMode.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/trackMode.css') }}">
+
+
+
+
+    </head>
+    <body>
+        <div id="menuDiv">
+            <button id="menuButton">
+                Options
+            </button>
+            <div id="menu" hidden>
+                <div id = "darkModeToggle">
+                    Dark Mode <input type="checkbox" id="darkModeCheckbox" value="0"/>
+                </div>
+                <div id= "menuSpecificOptions">
+                </div>
+            </div>
+        </div>
+        <div id="titleDiv">
+            Farm Dog RTK GNSS Application
+        </div>
+        <div class = "standardSeparator">
+        </div>
+        <div id = "contentTitle">
+            Main Menu
+        </div>
+        <div class = "standardSeparator">
+        </div>
+        <div id = "mainContent">
+        </div>
+
+        <div id="mainMenuLogo">
+            <img src="/static/WEB-ICON-FARMDOG.png" width="150" alt="Farm Dog Logo">
+        </div>
+
+        <!-- General Scripts -->
+        <script type="text/javascript" src="{{ url_for('static', filename='js/jquery-4.0.0.min.js') }}"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/UtilityClasses.js') }}"></script>
+
+        <!-- Page Specific Scripts -->
+        <script src="{{ url_for('static', filename='js/trackMode.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/mapMode.js') }}"></script>
+
+
+        <!-- Main App Handler -->
+        <!-- THIS ONE MUST GO LAST BECAUSE IT CALLS CLASSES FROM THE ABOVE THREE SCRIPTS -->
+        <script type="text/javascript" src="{{ url_for('static', filename='js/mainAppHandler.js') }}"></script>
+    </body>
+</html>

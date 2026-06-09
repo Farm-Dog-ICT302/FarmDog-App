@@ -1,0 +1,50 @@
+<button id="return">Return to Main Menu</button>
+
+<div id="informationDisplay">
+
+    <div class="trackModeDataDisplay">
+        <div class="trackModeDataLabel">Current Latitude</div>
+        <div id="latitudeValue" class="trackModeDataValue">--</div>
+    </div>
+
+    <div class="trackModeDataDisplay">
+        <div class="trackModeDataLabel">Current Longitude</div>
+        <div id="longitudeValue" class="trackModeDataValue">--</div>
+    </div>
+
+    <div class="trackModeDataDisplay">
+        <div class="trackModeDataLabel">Distance to Target</div>
+        <div id="distanceValue" class="trackModeDataValue">--</div>
+    </div>
+
+    <div class="trackModeDataDisplay">
+        <div class="trackModeDataLabel">Direction</div>
+        <div id="directionValue" class="trackModeDataValue">Enter target below ↓</div>
+    </div>
+
+    <div class="trackModeDataDisplay">
+        <div class="trackModeDataLabel">RTK Fix Quality</div>
+        <div id="fixValue" class="trackModeDataValue" style="font-weight: bold; color: orange;">--</div>
+    </div>
+
+</div>
+
+<div class="trackModeDataDisplay">
+    <div class="trackModeDataLabel">Target Latitude</div>
+    <input id="targetLat" class="trackModeInput"
+           type="text" value=""
+           placeholder="e.g. -32.069218"/>
+</div>
+
+<div class="trackModeDataDisplay">
+    <div class="trackModeDataLabel">Target Longitude</div>
+    <input id="targetLon" class="trackModeInput"
+           type="text" value=""
+           placeholder="e.g. 115.836058"/>
+</div>
+
+<div id="findButtonDiv">
+    <button id="findButton">Find Target</button>
+</div>
+
+<div id="targetStatus"></div>

@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+
+#titleDiv {
+    color: white;
+    text-align:center;
+    font-size:50px;
+}
+
+#longditude {
+    color:white;
+    text-align:center;
+    font-size:20px;
+    padding-right: 10%;
+    padding-left: 10%;;
+}
+
+#longditudeLabel {
+    font-weight:bold;
+}
+
+#longditudeValue {
+    border: 2px solid white;
+}
+
+#latitude {
+    color:white;
+    text-align:center;
+    font-size:20px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#latitudeLabel {
+    font-weight:bold;
+}
+
+#latitudeValue {
+    border: 2px solid white;
+}
+
+#altitude {
+    color:white;
+    text-align:center;
+    font-size:20px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#altitudeLabel {
+    font-weight:bold;
+}
+
+#altitudeValue {
+    border: 2px solid white;
+}
+
+#GPSError {
+    color:white;
+    text-align:center;
+    font-size:20px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#GPSErrorLabel {
+    font-weight:bold;
+}
+
+#GPSErrorValue {
+    border: 2px solid white;
+}
+
+#CSVButtonDiv {
+    text-align:center;
+}
+
+#CSVButton {
+    background-color:black;
+    color:white;
+    text-align:center;
+    font-size:40px;
+}

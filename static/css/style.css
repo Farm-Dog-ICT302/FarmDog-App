@@ -1,0 +1,102 @@
+:root {
+    --bg-color: white;
+    --text-color: black;
+    --box-height: 50px;
+    --box-font-size: 18px;
+    --button-font-size: 20px;
+    --max-width: 600px;
+}
+
+[data-theme='dark'] {
+    --bg-color: black;
+    --text-color: white;
+}
+
+body{
+    background-color: var(--bg-color);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#titleDiv {
+    color: var(--text-color);
+    text-align:center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+    width: 90%;
+    max-width: 600px;
+}
+
+#contentTitle {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+.standardSeparator {
+    height: 10px;
+}
+
+#menuDiv {
+    position: fixed;
+    top: 8%;
+    left:5%;
+    color:var(--text-color);
+    background-color: var(--bg-color);
+    z-index: 1000;
+    border: 2px solid var(--text-color);
+    padding: 5px;
+}
+
+#menuButton {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#darkModeToggle {
+    color:var(--text-color);
+    font-weight:bold;
+    padding: 5px;
+}
+
+#showHideLabel {
+    font-weight:bold;
+}
+
+#return {
+    width: 90%;
+    max-width: 600px;
+    height: 50px;
+    font-size: 18px;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    cursor: pointer;
+    display: block;
+    margin: 8px auto;
+    box-sizing: border-box;
+}
+
+#return:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
+#mainContent {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+}
